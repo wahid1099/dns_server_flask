@@ -1,0 +1,31 @@
+{
+    "A": [
+        {
+            "name": "www.wahid.com",
+            "value": "192.168.10.10"
+        },
+        {
+            "name": "www.example.com",
+            "value": "192.168.1.100"
+        }
+    ],
+    "AAAA": [],
+    "CNAME": [
+        {
+            "name": "alias.example.com",
+            "value": "www.example.com"
+        }
+    ],
+    "MX": [
+        {
+            "name": "example.com",
+            "value": "mail.example.com"
+        }
+    ],
+    "TXT": [
+        {
+            "name": "example.com",
+            "value": "v=spf1 include:_spf.example.com ~all"
+        }
+    ]
+}
